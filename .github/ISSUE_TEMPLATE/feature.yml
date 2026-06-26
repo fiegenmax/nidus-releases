@@ -1,0 +1,18 @@
+name: ✦ Idee / Wunsch
+description: Eine Idee für eine neue Funktion oder Verbesserung.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idee
+      description: Was wünschst du dir?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Anwendungsfall / Motivation
+      description: Wobei würde dir das helfen?
+    validations:
+      required: false

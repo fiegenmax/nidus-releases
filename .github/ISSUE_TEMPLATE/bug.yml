@@ -1,0 +1,41 @@
+name: 🐞 Fehler melden
+description: Etwas funktioniert in Nidus nicht wie erwartet.
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes vs. tatsächliches Verhalten
+    validations:
+      required: false
+  - type: input
+    id: app-version
+    attributes:
+      label: Nidus-Version
+      placeholder: z. B. v0.1.0
+    validations:
+      required: false
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows-Version
+      placeholder: z. B. Windows 11
+    validations:
+      required: false
