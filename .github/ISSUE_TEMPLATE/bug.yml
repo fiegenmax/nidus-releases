@@ -25,6 +25,23 @@ body:
       label: Erwartetes vs. tatsächliches Verhalten
     validations:
       required: false
+  - type: dropdown
+    id: module
+    attributes:
+      label: Betroffener Bereich
+      description: Wo tritt der Fehler auf? (Beim Melden aus der App vorausgewählt.)
+      options:
+        - Worldbuilding (Kategorien/Einträge)
+        - Schreiben (Manuskript/Editor/Autokorrektur)
+        - Notizen
+        - Dashboard / Statistik
+        - Export / Kompilieren
+        - Papierkorb / Backup
+        - Speichern / Laden / Projekt öffnen
+        - Einstellungen / Themes
+        - Sonstiges / unklar
+    validations:
+      required: false
   - type: input
     id: app-version
     attributes:
@@ -37,5 +54,13 @@ body:
     attributes:
       label: Windows-Version
       placeholder: z. B. Windows 11
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Letzte Meldungen (automatisch)
+      description: Von der App automatisch eingefügte Warnungen/Fehler. Enthält keine Projekt- oder Textinhalte; bei Bedarf kürzen.
+      render: text
     validations:
       required: false
