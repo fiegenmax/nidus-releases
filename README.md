@@ -2,8 +2,12 @@
 
 Dies ist das **Download-Repository** für **Nidus**, ein kostenloses Tool für Autorinnen und Autoren.
 
-- **Download & Infos:** <https://maximilianfiegen.de/nidus/>
-- **Neueste Version:** siehe [Releases](../../releases/latest)
+### ⬇️ [Nidus für Windows herunterladen](../../releases/latest/download/Nidus-Setup-Windows.exe)
+
+Das lädt direkt den aktuellen Installer (`Nidus-Setup-Windows.exe`) — die einzige Datei, die du brauchst. Doppelklick zum Installieren.
+
+- **Alle Infos:** <https://maximilianfiegen.de/nidus/>
+- **Ältere Versionen & Details:** siehe [Releases](../../releases/latest)
 
 ## Feedback & Fehler
 
